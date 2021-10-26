@@ -63,6 +63,12 @@ if($_GET['id']=="resume"){
 				ITQ 엑셀<br>
 				컴퓨터활용능력 2급<br>
 				워드프로세서<br>
+				<h2>
+					프로젝트
+				</h2>
+				<a href='https://brandtest.site'>명품 브랜드 테스트</a><br>
+				<a href='http://restandeat.dothome.co.kr'>강동경찰서 구내식당 홈페이지</a><br>
+				포트폴리오 투자비율별 최대예상손실액<br>
 			</div>
 			
 		</div>
