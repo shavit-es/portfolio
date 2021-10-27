@@ -26,9 +26,8 @@ if($_GET['id']=="resume"){
 			<?=$resume?>
 			<br>
 			<div class='border-end border-5 border-primary p-3 w-350 text-center'>
-			<img src="images/face.png" alt="My Image" class='m-5 rounded mx-auto d-block'>
-				<br>조직의 일원이자 사업의 주인으로서 적극적으로 참여하는 개발자 이현희입니다.
-				<br>
+			<img src="images/face.png" alt="My Image" class='m-5 rounded mx-auto d-block' style='width:300px;'>
+				조직의 일원이자 사업의 주인으로서 적극적으로 참여하는 개발자 이현희입니다.<br>
 			</div>
 			<div class='m-5'>
 				<h2>
