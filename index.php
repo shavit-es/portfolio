@@ -1,7 +1,7 @@
 <!-- https://www.miricanvas.com/templates/presentation/1wo3 -->
 <?php
 include "commonpart.php";
-$resumelink='<a href="index.php?id=resume" class="ms-5">이력서</a>';
+$resumelink='<a href="index.php?id=resume" class="ms-5">다음</a>';
 if($_GET['id']=="resume"){
 	$resumelink='';
 	$resume='';
@@ -66,7 +66,7 @@ if($_GET['id']=="resume"){
 				<h2>
 					프로젝트
 				</h2>
-				<a href='https://brandtest.site'>명품 브랜드 테스트</a><br>
+				<a href='project.php?id=brandtest1'>명품 브랜드 테스트</a><br>
 				<a href='http://restandeat.dothome.co.kr'>강동경찰서 구내식당 홈페이지</a><br>
 				포트폴리오 투자비율별 최대예상손실액<br>
 			</div>
