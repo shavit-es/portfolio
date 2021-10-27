@@ -1,7 +1,7 @@
 <!-- https://www.miricanvas.com/templates/presentation/1wo3 -->
 <?php
 include "commonpart.php";
-$resumelink='<a href="index.php?id=resume" class="ms-5">다음</a>';
+$resumelink='<a href="index.php?id=resume" class="ms-5 me-5">다음</a>';
 if($_GET['id']=="resume"){
 	$resumelink='';
 	$resume='';
@@ -21,7 +21,7 @@ if($_GET['id']=="resume"){
 			이현희
 		</h1>
 		<div class="d-flex justify-content-start">
-			<?=$resumelink?>
+			
 			<br>
 			<?=$resume?>
 			<br>
@@ -69,9 +69,10 @@ if($_GET['id']=="resume"){
 				<a href='http://restandeat.dothome.co.kr'>강동경찰서 구내식당 홈페이지</a><br>
 				포트폴리오 투자비율별 최대예상손실액<br>
 			</div>
-			
 		</div>
-		
+		<div class="text-end">
+			<?=$resumelink?>
+		</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"

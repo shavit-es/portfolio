@@ -8,9 +8,9 @@ if($_GET['id']=="brandtest1"){
 		</h1>
 		<div class="d-flex flex-column text-center">
 			<div class=\'border-end text-center\'>
-				<img src="images/brandtest1.jpg" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
-				<img src="images/brandtest2.jpg" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
-				<img src="images/brandtest3.jpg" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
+				<img src="images/brandtest1.png" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
+				<img src="images/brandtest2.png" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
+				<img src="images/brandtest3.png" alt="My Image" class=\'m-5 rounded\' style="width:250px;">
 			</div>
 			명품 브랜드 테스트는 사용자가 옷을 입고 있는 사진을 업로드하면, A.I.를 통해서 어떤 명품 브랜드의 스타일과 비슷한지 찾아주는 서비스입니다.
 			<a class="text-end me-5" href=\'project.php?id=brandtest2\'>다음 페이지</a>
@@ -22,19 +22,19 @@ if($_GET['id']=="brandtest2"){
 		<div class="d-flex flex-column mb-3 text-center mt-5">
 			<div class=\'d-flex text-center justify-content-center\'>
 				<div class=\'d-flex flex-column\'>
-					<img src="images/brandtest21.jpg" alt="My Image" class=\'m-3 rounded\' style="width:250px;">
+					<img src="images/brandtest21.png" alt="My Image" class=\'m-3 rounded\' style="width:250px;">
 					<div>
 						[사진 2-1]
 					</div>
 				</div>
 				<div class=\'d-flex flex-column\'>
-					<img src="images/brandtest22.jpg" alt="My Image" class=\'m-3 rounded\' style="width:250px;">
+					<img src="images/brandtest22.png" alt="My Image" class=\'m-3 rounded\' style="width:250px;">
 					<div>
 						[사진 2-2] 크롤링 이미지 예시
 					</div>
 				</div>
 				<div class=\'d-flex flex-column\'>
-					<img src="images/brandtest23.jpg" alt="My Image" class=\'m-3 rounded\' style="width:175px; height:375px;">
+					<img src="images/brandtest23.png" alt="My Image" class=\'m-3 rounded\' style="width:175px; height:375px;">
 					<div>
 						[사진 2-3] 데이터 가공 예시
 					</div>
